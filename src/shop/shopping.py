@@ -6,7 +6,7 @@ from loguru import logger
 class ShoppingCart:
 
     def __init__(self):
-        mongo_url = "mongodb+srv://nexturn_db1:jzIMIIFqo9bpBamW@cluster0.wqfcmsj.mongodb.net/?appName=Cluster0"
+        mongo_url = "mongodb+srv://mrchocofudge>:mrchocofudge@cluster0.ghuc8za.mongodb.net/?appName=Cluster0"
  
         mongo_client = MongoClient(mongo_url)
         cart_db = mongo_client['cart']
